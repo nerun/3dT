@@ -1,0 +1,23 @@
+CASO VOCE NAO SAIBA USAR O DELPHI, NAO EXTRAIA O ZIP DOS FONTES. VOCE NAO VAI TER O QUE FAZER COM ELE, E OS ARQUIVOS EXCEDENTES SOH VAO OCUPAR ESPACO.
+
+Ultimas informacoes sobre o codigo fonte do programa :
+
+A parte que pode importar aos autores de novos programas (rotinas de salvar, abrir e imprimir) estao no arquivo "abrsalv.pas". Caso voce nao tenha o Delphi, pode abri-lo ateh no Bloco de Notas (eh escrita em Object Pascal, linguagem do Delphi).
+
+Leia o fonte da tela "Sobre o Programa" (form "AboutBox") antes de fazer qualquer alteracao.
+
+Caso use meu programa como base para seu programa, por favor coloque nos creditos algo como "Baseado no codigo de Reverendo Gunfighter"... e contate-me via mail, soh para que eu saiba que estou sendo citado...
+
+O projeto foi feito em Delphi 2.0, e o unico motivo pelo qual eu uso a resolucao dividida por 300 na rotina de impressao eh que essa eh a resolucao da minha impressora. A funcao que eu uso para pegar a resolucao eh da API do Windows.
+
+Eu NAO mantenho mais esse programa, e nao estou interessado em sugestoes. Somente envie-me email nestes casos :
+
+1) Se voce for EXPERIENTE com Delphi, mas tiver alguma duvida em alguma parte do meu programa (nada como "nao entendi a rotina de impressao". Seja especifico.)
+
+2) Se voce tiver encontrado algum BUG no meu programa. (o bug de quando abre um arquivo sem figura ele mostrar o modelo eu sei. Eu tambem sei que as messageboxes poderiam ter sido feitas pela API.)
+
+NAO envie-me outro tipo de perguntas. Nao sei onde voce pode encontrar o Delphi, nao sei onde voce pode aprender Delphi, e nem estou disposto a ensinar. Parei o programa por motivos pessoais, nao vou mudar de atitude e nao vou dizer que motivos sao esses.
+
+Reverendo Gunfighter
+Pagina : http://gunfighter.virtualave.net
+Mail : webmaster@gunfighter.virtualave.net

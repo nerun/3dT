@@ -1,0 +1,19 @@
+# Export Ignore
+/.git                   export-ignore
+/.github                export-ignore
+.editorconfig           export-ignore
+.gitattributes          export-ignore
+.gitignore              export-ignore
+
+# Keep legacy Delphi/Windows text files with CRLF endings
+*.pas text eol=crlf
+*.dpr text eol=crlf
+*.dfm text eol=crlf
+*.dof text eol=crlf
+*.txt text eol=crlf
+
+# Binary files
+*.res binary
+*.exe binary
+*.dll binary
+*.lib binary

@@ -1,0 +1,27 @@
+root = true
+
+[*]
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+max_line_length = 100
+
+# Modern text files
+[*.{md,tex,json,yml,yaml,js,ts,jsx,tsx,py}]
+charset = utf-8
+end_of_line = lf
+
+[*.{md,tex}]
+trim_trailing_whitespace = false
+
+[*.{json,yml,yaml,js,ts,jsx,tsx}]
+indent_size = 2
+
+[*.py]
+max_line_length = 88
+
+# Legacy Delphi 2 source
+[*.{pas,dpr,dfm,dof,txt}]
+end_of_line = crlf
+trim_trailing_whitespace = false

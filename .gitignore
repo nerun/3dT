@@ -1,0 +1,37 @@
+# Dependencies / packages
+vendor/
+node_modules/
+
+# Build / distribution
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.*
+
+# Logs / temp files
+*.log
+*.tmp
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# Editors / IDEs
+.vscode/
+.idea/
+
+# Test / coverage
+coverage/
+
+# Misc
+*.bak
+*.swp
+
+# Delphi
+*.dcu
+*.dsk
+*.~*
